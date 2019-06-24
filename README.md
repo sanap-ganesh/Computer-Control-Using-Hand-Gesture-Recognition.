@@ -1,16 +1,6 @@
-
-### Gesture Keyboard Library
-
-Now that everything is working, let's dive into the library.
-While a Dataset is already included, you should create a new one for a few reasons:
-* Every device is different, even a small change in the accelerometer position makes the device less precise. **Everytime you change your device you should create a new dataset, to improve precision.**
-* If you want to change or add gestures, you have add new data to the dataset.
-
-#### Working with the Dataset
-
-Start by deleting the content of the `data` folder, we will replace it with a newly created dataset.
-
-This library was originally conceived to make a keyboard, so each gesture is associated with a character ( case sensitive ). This means that you can teach the algorithm a maximum of about 60 different gestures.
+Computer Control Using Hand Gesture Recognition has 2 modules:-
+1. Mouse Control
+2. Keyboard Control.
 
 Let's start a new recording batch, where you will record new samples for a specific gesture.
 Open the terminal and write:
